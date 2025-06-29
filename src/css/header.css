@@ -1,0 +1,111 @@
+/* Genel */
+.header {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.login{
+  color: ;
+}
+
+/* Üst Bar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+.topbar-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.topbar-section.right a {
+  color: white;
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1F2937;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 30px;
+  background-color: white;
+  min-width: 180px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  z-index: 1;
+  flex-direction: column;
+}
+
+.dropdown-content a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.auth-cart{
+  color: #23A6F0;
+}
+
+/* Sağdaki giriş-sepet kısmı */
+.auth-cart a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #23A6F0;
+  font-size: 16px;
+}
